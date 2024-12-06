@@ -50,7 +50,7 @@ gaiad keys show <key-name> -a
 ### Create account to genesis
 
 ```
-gaiad genesis add-genesis-account <key-name> 10000000stake
+gaiad genesis add-genesis-account <key-name> 1000000000000000stake
 ```
 
 ### Create GenTX
