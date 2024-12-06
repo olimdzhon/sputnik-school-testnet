@@ -62,7 +62,7 @@ gaiad genesis add-genesis-account <key-name> 1000000000000000stake
 # Make sure that all participants built their gentx files without typos.
 
 gaiad genesis gentx <key-name> 10000000stake \
-  --pubkey=$(sputnikd tendermint show-validator) \
+  --pubkey=$(gaiad tendermint show-validator) \
   --chain-id=<current course chain id> \
   --moniker="my-moniker" \
   --commission-rate="0.10" \
