@@ -145,7 +145,7 @@
     "consensus": null,
     "crisis": {
       "constant_fee": {
-        "denom": "stake",
+        "denom": "usignal",
         "amount": "1000"
       }
     },
@@ -568,7 +568,7 @@
       "params": {
         "min_deposit": [
           {
-            "denom": "stake",
+            "denom": "usignal",
             "amount": "10000000"
           }
         ],
@@ -584,7 +584,7 @@
         "expedited_threshold": "0.667000000000000000",
         "expedited_min_deposit": [
           {
-            "denom": "stake",
+            "denom": "usignal",
             "amount": "50000000"
           }
         ],
@@ -673,7 +673,7 @@
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
-        "mint_denom": "stake",
+        "mint_denom": "usignal",
         "inflation_rate_change": "0.130000000000000000",
         "inflation_max": "0.200000000000000000",
         "inflation_min": "0.070000000000000000",
@@ -707,7 +707,7 @@
         "max_validators": 100,
         "max_entries": 7,
         "historical_entries": 10000,
-        "bond_denom": "stake",
+        "bond_denom": "usignal",
         "min_commission_rate": "0.000000000000000000"
       },
       "last_total_power": "0",
